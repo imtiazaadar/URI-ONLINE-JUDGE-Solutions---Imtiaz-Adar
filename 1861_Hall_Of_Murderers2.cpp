@@ -11,8 +11,8 @@ int main()
     string s1,s2;
     while(cin>>s1>>s2)
     {
-        murdurer[s1]++; //initalized value 0. After every inserts, value increaments by 1
-        dead[s2]++;  //if any duplicate value finds value again increaments by 1.
+        murdurer[s1]++; 
+        dead[s2]++;  
     }
     for(map<string,int>::iterator it=murdurer.begin(); it!=murdurer.end(); it++)
     {

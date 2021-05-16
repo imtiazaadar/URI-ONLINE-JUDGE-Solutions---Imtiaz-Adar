@@ -15,7 +15,7 @@ while True:
             val=int(y.pop(0)) #then poped the first value as the size of that string and stored into 'val'
             for j in y:
                 sum+=int(j) #sum
-                arr.append(j) #appended in list
+                arr.append(j) #appended to list
             media=float(sum/val) #calculated average
             for k in range(val):
                 if int(arr[k])>media:
